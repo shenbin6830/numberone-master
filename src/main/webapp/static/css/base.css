@@ -1,0 +1,250 @@
+@charset "utf-8";
+body,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl,dt,dd,ul,ol,li,pre,form,fieldset,legend,button,input,textarea,th,td{margin:0;padding:0;list-style: none;}
+body{font: 14px/1.5 tahoma, arial, Microsoft Yahei, sans-serif;background:#fff;color: #333;}
+img{height:auto;border:0;-ms-interpolation-mode:bicubic; /* Internet Explorer 7.0+ 鐢婚潰澶辩湡鍛堥敮榻跨姸 */ image-rendering:optimizeQuality;/* Firefox 3.6+ */vertical-align: middle;}
+/*link*/
+a{text-decoration:nonecursor:pointer}
+a:focus{outline:0;}
+a:hover,a:active{outline:0;}
+a:hover{text-decoration:none;color:#ff5400;}
+a,button,select{
+    cursor:pointer;
+}
+table{border-collapse:collapse;border-spacing:0;}
+th {text-align: inherit;}
+html {color: #000;background: #fff;-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;}
+/* 閲嶈 HTML5 鏍囩, IE 闇€瑕佸湪 js 涓� createElement(TAG) */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {display: block;}
+/* HTML5 濯掍綋鏂囦欢璺� img 淇濇寔涓€鑷� */
+audio, canvas, video {display: inline-block;*display: inline;*zoom: 1;}
+/* 瑕佹敞鎰忚〃鍗曞厓绱犲苟涓嶇户鎵跨埗绾� font 鐨勯棶棰� */
+body, button, input, select, textarea {font: 14px/1.5 "寰蒋闆呴粦","tahoma, arial, Microsoft Yahei, sans-serif;"}
+/*鍘绘帀A鏍囩鐐瑰嚮涔嬪悗铏氱嚎杈规*/
+body a {outline: none;blr:expression(this.onFocus=this.blur())\9;text-decoration: none;}
+input, select, textarea {font-size: 100%;}
+textarea {resize: none;outline: none;}
+/* 鍘婚櫎榛樿杈规 */
+fieldset, img {
+	border: 0;
+}
+/* ie6 7 8(q) bug 鏄剧ず涓鸿鍐呰〃鐜� */
+iframe {
+	display: block;
+}
+/* 鍘绘帀 firefox 涓嬫鍏冪礌鐨勮竟妗� */
+abbr, acronym {
+	border: 0;
+	font-variant: normal;
+}
+/* 涓€鑷寸殑 del 鏍峰紡 */
+del {
+	text-decoration: line-through;
+}
+address, caption, cite, code, dfn, em, th, var {
+	font-style: normal;
+	font-weight: 500;
+}
+/* 鍘绘帀鍒楄〃鍓嶇殑鏍囪瘑, li 浼氱户鎵� */
+ol, ul {
+	list-style: none;
+}
+/* 瀵归綈鏄帓鐗堟渶閲嶈鐨勫洜绱 , 鍒浠€涔堥兘灞呬腑 */
+caption, th {
+	text-align: left;
+}
+/* 鏉ヨ嚜yahoo, 璁╂爣棰橀兘鑷畾涔�, 閫傚簲澶氫釜绯荤粺搴旂敤 */
+h1, h2, h3, h4, h5, h6 {
+	font-size: 100%;
+	font-weight: normal;
+}
+q:before, q:after {
+	content: '';
+}
+/* 缁熶竴涓婃爣鍜屼笅鏍� */
+sub, sup {
+	font-size: 75%;
+	line-height: 0;
+	position: relative;
+	vertical-align: baseline;
+}
+sup {
+	top: -0.5em;
+}
+sub {
+	bottom: -0.25em;
+}
+a {
+	color: #000;
+}
+/* 璁╅摼鎺ュ湪 hover 鐘舵€佷笅鏄剧ず涓嬪垝绾� */
+a:hover {
+	text-decoration: none;
+}
+/* 榛樿涓嶆樉绀轰笅鍒掔嚎锛屼繚鎸侀〉闈㈢畝娲� */
+ins, a {
+	text-decoration: none;
+}
+
+/* 娓呯悊娴姩 */
+.fn-clear:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+.fn-clear {
+	zoom: 1; /* for IE6 IE7 */
+}
+/* 闅愯棌, 閫氬父鐢ㄦ潵涓� JS 閰嶅悎 */
+.fn-hide {
+	display: none;
+}
+.fn-show {
+	display: block;
+}
+/* 璁剧疆鍐呰仈, 鍑忓皯娴姩甯︽潵鐨刡ug */
+.fn-left, .fn-right {
+	display: inline;
+}
+.fn-left {
+	float: left;
+}
+.fn-right {
+	float: right;
+}
+.w280 {
+	width: 280px;
+}
+.w700 {
+	width: 700px;
+}
+.w720 {
+	width: 720px;
+}
+.w980 {
+	width: 980px;
+	margin: 0 auto;
+}
+.w1020 {
+	width: 1020px;
+	margin: 0 auto;
+}
+.padding-t-10 {
+	padding-top: 10px;
+}
+.padding-t-15 {
+	padding-top: 15px;
+}
+.padding-t-20 {
+	padding-top: 20px;
+}
+.padding-t-30 {
+	padding-top: 30px;
+}
+.padding-b-10 {
+	padding-bottom: 10px;
+}
+.padding-b-30 {
+	padding-bottom: 30px;
+}
+.padding-10 {
+	padding: 10px;
+}
+.margin-t-5 {
+	margin-top: 5px;
+}
+.margin-t-10 {
+	margin-top: 10px;
+}
+.margin-t-15 {
+	margin-top: 15px;
+}
+.margin-t-20 {
+	margin-top: 20px;
+}
+.margin-t-25 {
+	margin-top: 25px;
+}
+.margin-t-30 {
+	margin-top: 30px;
+}
+.margin-t-35 {
+	margin-top: 35px;
+}
+.margin-t-45 {
+	margin-top: 45px;
+}
+.margin-l-10 {
+	margin-left: 10px;
+}
+.margin-l-15 {
+	margin-left: 15px;
+}
+.margin-l-20 {
+	margin-left: 20px;
+}
+.margin-l-30 {
+	margin-left: 30px;
+}
+.margin-l-40 {
+	margin-left: 40px;
+}
+.margin-r-10 {
+	margin-right: 10px;
+}
+.margin-r-20 {
+	margin-right: 20px;
+}
+.margin-r-5 {
+	margin-right: 10px;
+}
+.margin-b-5 {
+	margin-bottom: 5px;
+}
+.margin-b-10 {
+	margin-bottom: 10px;
+}
+.margin-b-15 {
+	margin-bottom: 15px;
+}
+.margin-b-20 {
+	margin-bottom: 20px;
+}
+.margin-b-30 {
+	margin-bottom: 30px;
+}
+.margin-b-80 {
+	margin-bottom: 80px;
+}
+.margin-r-40 {
+	margin-right: 40px;
+}
+.margin-r-50 {
+	margin-right: 50px;
+}
+.text-center {
+	text-align: center;
+}
+.text-right {
+	text-align: right;
+}
+.margin-lr-10 {
+	margin: 0 10px;
+}
+.margin-lr-20 {
+	margin: 0 20px;
+}
+.f11{font-size:11px;-webkit-text-size-adjust:none;}
+.f11b{font-size:11px;font-weight:bold;-webkit-text-size-adjust:none;}
+.f12{font-size:12px;}
+.f12b{font-size:12px;font-weight:bold;}
+.f14{font-size:14px;}
+.f14b{font-size:14px;font-weight:bold;}
+.f16{font-size: 16px}
+.f20{font-size:20px;}
+.f20b{font-size:20px;font-weight:bold;}
+
+
+
